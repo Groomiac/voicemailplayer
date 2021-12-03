@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="theprefs" >
+
+    <PreferenceCategory android:title="User Guide" >
+
+        <groomiac.voicemailplayer.GeneralUI
+            android:key="showinit"
+            android:summary="Show the user guide message"
+            android:title="Open Guide" />
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="showguide"
+            android:summary="Show the user guide message on startup"
+            android:title="Startup Message" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Behavior" >
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="tweak"
+            android:summary="Some devices cause problems for using the earpiece. Try this tweak. If it does not work, unfortunately your phone is not supported."
+            android:title="Tweak earpiece" />
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="videomime"
+            android:summary="Show up as player for video files"
+            android:title="Video Files" />
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="autoclose"
+            android:summary="Automatically close this app when the media file finished playing"
+            android:title="Auto-Close" />
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="prox"
+            android:summary="Use proximity sensor and disable touch screen during playback"
+            android:title="Proximity Sensor" />
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="keepon"
+            android:summary="When long media files are to be played, this ensures playing because the screen will not turn off"
+            android:title="Keep Screen on" />
+
+        <!--
+		        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="contplay"
+            android:title="Play in Background"
+            android:summary="Continue playing when app is called to back or the device screen gets locked" />
+        -->
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="compall"
+            android:summary="Show up in system app list for all file types\n(use only for legacy file pickers!)"
+            android:title="All Files" />
+
+        <!--
+		<groomiac.voicemailplayer.GeneralUI
+            android:key="reset"
+            android:summary="Trying to set your audio settings back to default in case something went wrong"
+            android:title="Reset Audio Settings" />
+        -->
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Rate me" >
+
+        <groomiac.voicemailplayer.GeneralUI
+            android:key="rateintro"
+            android:summary="Rate now"
+            android:title="Rate me" />
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="rateme"
+            android:summary="Disable &apos;Rate me&apos; requests"
+            android:title="No &apos;Rate me&apos; Requests" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="More from us" >
+    </PreferenceCategory>
+
+</PreferenceScreen>
