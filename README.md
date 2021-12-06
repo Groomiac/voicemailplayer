@@ -29,3 +29,7 @@ ORIGINAL GOOGLE PLAY DESCRIPTION:
 -
 
 https://play.google.com/store/apps/details?id=groomiac.voicemailplayer
+
+
+For direct installation, just use the APK: https://github.com/Groomiac/voicemailplayer/releases/download/v13/VoiceMailPlayer13_goo.apk
+
