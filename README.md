@@ -1,11 +1,10 @@
-# voicemailplayer
-VoiceMailPlayer App for Android
+# Voice Mail Player
 
-This app had ~50.000 downloads on Google Play. Google removed it because of some policy violation. I wrote the app years ago and did not find time to update it.
+This app had ~50.000 downloads on [Google Play](https://play.google.com/store/apps/details?id=groomiac.voicemailplayer
+). Google removed it because of some policy violation. I wrote the app years ago and did not find time to update it.
 Maybe others would like to take over?
 
 ORIGINAL GOOGLE PLAY DESCRIPTION:
-
 
 "Do you get Voice Mails via e-mail or web access? Have you ever forgotten your headphones (or you do not even have any) and still wanted to listen to your Voice Mails with some privacy (e.g., being in the office or driving by bus)?\n\n" +
 
@@ -18,18 +17,12 @@ ORIGINAL GOOGLE PLAY DESCRIPTION:
 "Take a look at the settings to configure Voice Mail Player's behavior for your needs. Of course, you can use your phone's volume control keys as usual."
 
 
+* Play media files through phone's ear-piece
+* Use for privacy of listening to media files without headphones
+* Settings for your needs
 
+# Download
 
--
-• Play media files through phone's ear-piece
-• Use for privacy of listening to media files without headphones
-• Settings for your needs
+For direct installation, just use the APK from the [Releases Section](https://github.com/Groomiac/voicemailplayer/releases/latest).
 
-
--
-
-https://play.google.com/store/apps/details?id=groomiac.voicemailplayer
-
-
-For direct installation, just use the APK: https://github.com/Groomiac/voicemailplayer/releases/download/v13/VoiceMailPlayer13_goo.apk
-
+You can dowload the app from F-Droid [here](https://f-droid.org/packages/groomiac.voicemailplayer/).
